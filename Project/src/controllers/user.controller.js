@@ -1,6 +1,6 @@
 import {asyncHandler} from '../utility/asyncHandler.js';
 import {ApiError} from '../utility/ApiError.js';
-import User from '../models/user.model.js';
+import { User } from '../models/user.models.js';
 import { uploadOnCloudinary } from '../utility/cloudinary.js';
 import { ApiResponse } from '../utility/ApiResponse.js';
 
